@@ -28,6 +28,7 @@ export default function Home() {
             });
           }, turns[i] * 1000);
       }
+      setOrder(9); 
     }
   }, [order, state]);
 
